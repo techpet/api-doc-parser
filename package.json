@@ -10,8 +10,7 @@
   ],
   "main": "src/index.ts",
   "repository": "api-platform/api-doc-parser",
-  "homepage": "https://github.com/api-platform/api-doc-parser",
-  "bugs": "https://github.com/api-platform/api-doc-parser/issues",
+  "homepage": "https://github.com/techpet/api-doc-parser",
   "author": "Kévin Dunglas",
   "license": "MIT",
   "devDependencies": {
