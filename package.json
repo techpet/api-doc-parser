@@ -42,8 +42,9 @@
     "lint": "esw --color src --ext .ts",
     "fix": "yarn lint --fix",
     "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
-    "build": "tsc",
+    "build": "tsc | tsc src/index.ts lib/index.js",
     "watch": "tsc --watch"
+    "prepare": "npm run build",
   },
   "jest": {
     "automock": false,
