@@ -19,8 +19,8 @@ export default function (
 
   const resources = paths.map((item) => {
 //     var name = item.replace(`/`, ``);
-    const tokens = item.split("/")
-    const name = tokens[tokens.length - 2]
+    const tokens = item.split("/");
+    const name = tokens[tokens.length - 2];
     const url = removeTrailingSlash(entrypointUrl) + item;
     const firstMethod = Object.keys(
       response.paths[item]
@@ -34,7 +34,7 @@ export default function (
     }
 
     var title = responsePathItem.tags[0];
-    title=title.charAt(0).toUpperCase() + title.slice(1)
+    title=title.charAt(0).toUpperCase() + title.slice(1);
 
     if (!response.components) {
       throw new Error(); // @TODO
