@@ -8,7 +8,7 @@
     "lib",
     "src"
   ],
-  "main": "src/index.ts",
+  "main": "lib/index",
   "repository": "api-platform/api-doc-parser",
   "homepage": "https://github.com/techpet/api-doc-parser",
   "author": "Kévin Dunglas",
